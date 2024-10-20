@@ -29,7 +29,7 @@ const Fortalezas = () => {
     return (
         <div className="flex flex-col items-center justify-start h-screen bg-gray-100">
             <img className="w-24 h-16 mt-10 mb-10" src="/logo-inteligo.png" alt="" />
-            <h1 className="text-xl mb-10">Escribe las fortalezas y oportunidades de mejora.</h1>
+            <h1 className="text-xl mb-10 text-center">Escribe las fortalezas y oportunidades de mejora.</h1>
             <form onSubmit={handleSubmit} className="flex flex-col items-center">
                 <div className="flex space-x-4 w-full justify-center">
                     <div className='w-full relative'>

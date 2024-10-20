@@ -27,7 +27,7 @@ const App = () => {
       </p>
 
       <form onSubmit={handleSubmit} className="flex flex-col items-center">
-        <div className="mb-20">
+        <div className="mb-20 flex flex-col lg:flex-row gap-y-2">
           {colaboradores.map((colaborador, index) => (
             <label
               key={index}

@@ -4,5 +4,6 @@
 @tailwind utilities;
 
 body{
-    font-family: "Epilogue", serif;;
+    font-family: "Epilogue", serif;
+    background-color: #f7fafc
 }

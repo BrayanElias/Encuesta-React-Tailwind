@@ -22,7 +22,7 @@ const Evaluacion = () => {
             <img className="w-24 h-16 mt-10 mb-24" src="/logo-inteligo.png" alt="" />
             <h1 className="text-2xl font-bold mb-16">¿Conoces las actividades desempeñadas por Jhonatan Quispe?</h1>
             <form onSubmit={handleSubmit} className="flex flex-col items-center">
-                <div className="mb-20">
+                <div className="xl:mb-20 flex flex-col lg:flex-row gap-y-2 mb-5">
                     {respuestas.map((colaborador, index) => (
                         <label
                             key={index}
