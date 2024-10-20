@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div className="flex flex-col items-center justify-start h-screen bg-gray-100">
-      <img className="w-24 h-16 mt-10 mb-24" src="/public/logo-inteligo.png" alt="" />
+      <img className="w-24 h-16 mt-10 mb-24" src="/logo-inteligo.png" alt="" />
       <h1 className="text-2xl font-bold mb-3">Hola Brayan!</h1>
       <p className="mb-16 text-center w-[49%]">
         Has sido seleccionado para evaluar a los siguientes colaboradores en sus responsabilidades.

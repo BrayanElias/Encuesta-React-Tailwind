@@ -33,7 +33,7 @@ const Satisfaccion = () => {
     return (
         <form onSubmit={handleSubmit}>
             <div className="flex flex-col items-center justify-start h-screen bg-gray-100 px-4">
-                <img className="w-24 h-16 mt-8 mb-14" src="/public/logo-inteligo.png" alt="Logo Inteligo" />
+                <img className="w-24 h-16 mt-8 mb-14" src="/logo-inteligo.png" alt="Logo Inteligo" />
                 <h1 className="text-xl font-bold mb-5 text-center">¿Qué tan satisfecho te sientes con los siguientes servicios brindados por Manuel Zorochaqui?
                 </h1>
 

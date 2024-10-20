@@ -38,7 +38,7 @@ const Satisfaccion = () => {
     return (
         <form onSubmit={handleSubmit}>
             <div className="flex flex-col items-center justify-start h-screen bg-gray-100 px-4">
-                <img className="w-24 h-16 mt-5 mb-4" src="/public/logo-inteligo.png" alt="Logo Inteligo" />
+                <img className="w-24 h-16 mt-5 mb-4" src="/logo-inteligo.png" alt="Logo Inteligo" />
                 <h1 className="text-xl font-bold mb-5 text-center">¿Qué tan satisfecho estás con estos aspectos?</h1>
 
                 <div className="w-full max-w-4xl"> {/* Contenedor para limitar el ancho */}
