@@ -19,7 +19,7 @@ const Evaluacion = () => {
 
     return (
         <div className="flex flex-col items-center justify-start h-screen bg-gray-100">
-            <img className="w-24 h-16 mt-10 mb-24" src="/src/assets/logo-inteligo.png" alt="" />
+            <img className="w-24 h-16 mt-10 mb-24" src="/public/logo-inteligo.png" alt="" />
             <h1 className="text-2xl font-bold mb-16">¿Conoces las actividades desempeñadas por Jhonatan Quispe?</h1>
             <form onSubmit={handleSubmit} className="flex flex-col items-center">
                 <div className="mb-20">
