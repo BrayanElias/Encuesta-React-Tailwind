@@ -12,7 +12,8 @@ const App = () => {
     if (!selectedColaborador) {
       alert('Por favor selecciona un colaborador');
     } else {
-      navigate('/evaluacion'); // Navega a la ruta de evaluación
+      // Pasa el colaborador seleccionado en el estado
+      navigate('/evaluacion', { state: { colaborador: selectedColaborador } });
     }
   };
 
